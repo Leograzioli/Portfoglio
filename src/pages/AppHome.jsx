@@ -1,9 +1,14 @@
-import { BsLinkedin, BsGithub, BsFacebook, BsTwitter} from "react-icons/bs"
+import { BsLinkedin, BsGithub, BsFacebook, BsTwitter } from "react-icons/bs"
 import leo from '../assets/leo.png'
 import curriculum from '../assets/leonardo-grazioli-cv.pdf'
+import { useEffect } from "react";
 
 
 export default function homepage() {
+
+    useEffect(() => {
+        document.title = 'Leo Grazioli - Home';
+    }, []);
 
     return (
         <>
@@ -68,7 +73,9 @@ export default function homepage() {
 
             </section>
 
-            <div className='h-[1px] max-w-[1300px] mx-auto bg-primary-dark dark:bg-primary mt-3'></div>
+            <div className="pb-12">
+                <div className='h-[1px] max-w-[1300px] mx-auto bg-primary-dark dark:bg-primary mt-3'></div>
+            </div>
 
         </>
     )
