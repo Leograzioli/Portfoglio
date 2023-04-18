@@ -12,7 +12,7 @@ export default function homepage() {
 
     return (
         <>
-            <section id='profile' className="max-w-[1300px] mx-auto">
+            <section id='profile' className="max-w-[1200px] mx-auto">
                 <div className="items-end grid grid-cols-1 lg:grid-cols-2 mt-16 ">
 
                     <div className="lg:pt-24 order-2 lg:order-1 " >
@@ -42,7 +42,7 @@ export default function homepage() {
                 </div>
             </section>
 
-            <section id='social-links' className='max-w-[1300px] mx-auto mt-20'>
+            <section id='social-links' className='max-w-[1200px] mx-auto mt-20'>
 
                 <ul className='dark:text-white text-primary-dark text-2xl flex justify-end items-center gap-x-6'>
 
@@ -74,7 +74,7 @@ export default function homepage() {
             </section>
 
             <div className="pb-12">
-                <div className='h-[1px] max-w-[1300px] mx-auto bg-primary-dark dark:bg-primary mt-3'></div>
+                <div className='h-[1px] max-w-[1200px] mx-auto bg-primary-dark dark:bg-primary mt-3'></div>
             </div>
 
         </>

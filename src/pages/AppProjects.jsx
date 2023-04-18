@@ -10,7 +10,7 @@ export default function () {
 
     return (
         <>
-            <section id='projects' className='max-w-[1300px] mx-auto mt-12'>
+            <section id='projects' className='max-w-[1100px] mx-auto mt-12'>
                 <h2 className='text-4xl text-center sm:text-start font-bold text-primary-dark dark:text-primary'>My Projects</h2>
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4'>

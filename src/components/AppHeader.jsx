@@ -10,7 +10,7 @@ export default function AppHeader() {
   return (
     <>
       <header className='py-10'>
-        <div className="max-w-[1300px] mx-auto flex flex-wrap justify-between content-center w-full">
+        <div className="max-w-[1200px] mx-auto flex flex-wrap justify-between content-center w-full">
 
           {/* logo */}
           <div>
