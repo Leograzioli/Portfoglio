@@ -10,10 +10,10 @@ export default function () {
 
     return (
         <>
-            <section id='projects' className='max-w-[1100px] mx-auto mt-12'>
-                <h2 className='text-4xl text-center sm:text-start font-bold text-primary-dark dark:text-primary'>My Projects</h2>
+            <section id='projects' className='max-w-[1200px] mx-auto mt-12'>
+                <h2 className='text-4xl text-center sm:text-start text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-secondary dark:bg-gradient-to-b dark:from-white dark:to-secondary font-bold pb-2'>My Projects</h2>
 
-                <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4'>
                     {projects.map((project, i) => {
                         return (
                             <div key={i} className='relative bg-primary-dark text-white dark:text-primary-dark dark:bg-primary max-w-[330px] ms_shadow rounded-tl-xl rounded-br-xl mt-10 mx-auto'>
