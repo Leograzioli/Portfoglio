@@ -14,7 +14,7 @@ export default function AppHeader() {
 
           {/* logo */}
           <div>
-            <img src={lightLogo} className='h-14 border  border-secondary' alt="" />
+            <img src={lightLogo} className='h-14' alt="" />
           </div>
 
           <div className='flex items-center'>

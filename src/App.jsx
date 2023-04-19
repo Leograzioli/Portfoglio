@@ -1,7 +1,10 @@
 
 import { useEffect, useState } from 'react'
-import AppHeader from './components/AppHeader'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HiLightBulb, HiMoon } from 'react-icons/hi'
+
+//components and pages
+import AppHeader from './components/AppHeader'
 import AppHome from './pages/AppHome'
 import AppProjects from './pages/AppProjects'
 
@@ -32,7 +35,8 @@ function App() {
     <div className="App bg-primary dark:bg-primary-dark h-screen overflow-auto px-[10%]">
       <div className="max-w-[1300px] mx-auto relative ">
 
-        <button onClick={handleClick} className='bg-primary-dark dark:bg-white text-white dark:text-black py-1 px-2 rounded absolute right-3 top-2'>{theme === "dark" ? 'light' : 'dark'}</button>
+        <button onClick={handleClick} className='bg-primary-dark dark:bg-white text-white dark:text-black py-1 px-2 rounded absolute right-3 top-2'>{theme === "dark" ? <HiLightBulb /> : <HiMoon />}</button>
+    
       </div>
 
       <BrowserRouter>
