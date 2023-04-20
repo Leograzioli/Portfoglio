@@ -23,7 +23,7 @@ export const projects = [
       "title": 'Rick and Morty API',
       "description": 'A simple layout that prints all characters from rick and morty.',
       "technologies":  ['Html', 'Css', 'Bootstrap', "Javascript", 'Vue.js'],
-      "href" : 'lg-rick-morty.netlify.app',
+      "href" : 'https://lg-rick-morty.netlify.app',
       "github" : 'https://github.com/Leograzioli/rick-marty-api',
       "imgPath" : rickMorty
    },
