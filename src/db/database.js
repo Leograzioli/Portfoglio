@@ -1,5 +1,6 @@
 import campoMinato from '../assets/campo-minato.jpg'
 import avadaBurger from '../assets/avada-burger.jpg'
+import rickMorty from '../assets/rick-morty.jpg'
 
 export const projects = [
    {
@@ -17,5 +18,13 @@ export const projects = [
       "href" : 'https://avada-burger.netlify.app/',
       "github" : 'https://github.com/Leograzioli/proj-html-vuejs',
       "imgPath" : avadaBurger
+   },
+   {
+      "title": 'Rick and Morty API',
+      "description": 'A simple layout that prints all characters from rick and morty.',
+      "technologies":  ['Html', 'Css', 'Bootstrap', "Javascript", 'Vue.js'],
+      "href" : 'lg-rick-morty.netlify.app',
+      "github" : 'https://github.com/Leograzioli/rick-marty-api',
+      "imgPath" : rickMorty
    },
 ]
