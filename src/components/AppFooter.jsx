@@ -3,7 +3,7 @@ import { BsLinkedin, BsGithub, BsFacebook, BsTwitter } from "react-icons/bs"
 export default function AppFooter() {
     return (
         <>
-            <section id='social-links' className="w-[1200px] mx-auto" >
+            <section id='social-links' className="max-w-[1200px] mx-auto" >
 
                 <ul className='dark:text-white text-primary-dark text-2xl flex justify-end items-center gap-x-6 pt-3'>
 
@@ -34,10 +34,10 @@ export default function AppFooter() {
             </section>
 
             <div >
-                <div className='h-[1px] w-[1200px] mx-auto bg-primary-dark dark:bg-primary mt-3'></div>
+                <div className='h-[1px] max-w-[1200px] mx-auto bg-primary-dark dark:bg-primary mt-3'></div>
             </div>
 
-            <div className="text-center w-[1200px] mx-auto font-bold text-primary-dark dark:text-white pt-6 pb-10"> Copyright &#169; </div>
+            <div className="text-center max-w-[1200px] mx-auto font-bold text-primary-dark dark:text-white pt-6 pb-10"> Copyright &#169; </div>
         </>
     )
 }
