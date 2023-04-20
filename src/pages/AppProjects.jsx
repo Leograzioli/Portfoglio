@@ -69,7 +69,7 @@ export default function () {
                 {isOpen && <div className='h-screen bg-black/[0.5] absolute top-0 right-0 left-0 z-50 flex justify-center items-center'>
                     <div className='border-4 border-white relative' >
                         <p onClick={() =>{ setImg(''), setIsOpen(false) } } className='absolute top-3 right-5 text-2xl bg-secondary rounded-xl text-semibold p-2'><AiOutlineClose /></p>
-                        <img className='max-h-[700px] max-w-[1200px]' src={img} alt="" />
+                        <img className='lg:max-w-[992px] xl:max-w-[1200px] lg:max-h-[750px]' src={img} alt="" />
                     </div>
                 </div>}
 

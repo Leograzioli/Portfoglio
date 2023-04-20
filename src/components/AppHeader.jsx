@@ -46,7 +46,7 @@ export default function AppHeader() {
         </div>
 
         {/* links */}
-        <nav className={`${isOpen ? 'block text-center mt-3' : 'hidden'} w-full sm:flex sm:items-center sm:w-auto`}>
+        <nav className={`${isOpen ? 'block text-center mt-3 pb-2 border-b-2' : 'hidden'} w-full sm:flex sm:items-center sm:w-auto`}>
           <ul className='sm:flex text-secondary-dark dark:text-secondary font-semibold text-lg'>
 
             <li>
