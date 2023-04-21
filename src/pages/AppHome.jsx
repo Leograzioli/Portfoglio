@@ -47,7 +47,7 @@ export default function homepage() {
                         <SiTailwindcss className="text-[#38bdf8] bg-white p-0.5 rounded" />
                         <IoLogoJavascript className="text-black bg-[#f7df1e] p-0.5 border-4 rounded" />
                         <FaVuejs className="text-[#41b883] bg-white pt-0.5 rounded" />
-                        <FaReact className="text-[#5ed3f3] bg-white t-0.5 rounded" />
+                        <FaReact className="text-[#5ed3f3] bg-white p-0.5 rounded" />
                         <FaPhp className="text-[#4d588e] bg-white p-0.5 rounded" />
                         <FaLaravel className="text-[#f63424] bg-white p-0.5 rounded" />
                         <SiMysql className="text-[#005e86] bg-white p-0.5 rounded" />
