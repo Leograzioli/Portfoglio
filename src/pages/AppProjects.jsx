@@ -23,8 +23,8 @@ export default function () {
         <>
             <section id='projects' className='max-w-[1200px] mx-auto mt-12'>
                 <h2 className='text-4xl text-center sm:text-start text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-secondary dark:bg-gradient-to-b dark:from-white dark:to-secondary font-bold pb-2'>My Projects</h2>
-                
-                <div className='mt-16 text-center dark:text-white text-sm relative'> 
+
+                <div className='mt-16 text-center dark:text-white text-sm relative'>
                     <p>*click on a image to preview*</p>
                     <p className='absolute right-0 top-0'>Projects Found: {projects.length}</p>
                 </div>
@@ -68,7 +68,7 @@ export default function () {
                 {/* modal */}
                 {isOpen && <div className='h-screen bg-black/[0.5] absolute top-0 right-0 left-0 z-50 flex justify-center items-center'>
                     <div className='border-4 border-white relative' >
-                        <p onClick={() =>{ setImg(''), setIsOpen(false) } } className='absolute top-3 right-5 text-2xl bg-secondary rounded-xl text-semibold p-2'><AiOutlineClose /></p>
+                        <p onClick={() => { setImg(''), setIsOpen(false) }} className='absolute top-3 right-5 text-2xl bg-secondary rounded-xl text-semibold p-2'><AiOutlineClose /></p>
                         <img className='lg:max-w-[992px] xl:max-w-[1200px] lg:max-h-[750px]' src={img} alt="" />
                     </div>
                 </div>}

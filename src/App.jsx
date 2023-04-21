@@ -11,22 +11,22 @@ function App() {
 
 
   return (
-    <div className="App bg-primary dark:bg-primary-dark h-screen overflow-auto ">
+    <div className="App bg-primary dark:bg-primary-dark h-screen overflow-y-scroll ">
 
       <BrowserRouter>
 
-        <header className='px-[10%]'>
+        <header className='px-[10%] w-[calc(100%-17px)] bg-primary dark:bg-primary-dark z-10 fixed'>
           <AppHeader />
         </header>
 
-        <main className='overflow-auto h-[calc(100vh-136px-137px)] px-[10%]'>
+        <main className='pt-[136px] w-[calc(100%-17px)] px-[10%]'>
           <Routes>
             <Route path="/" element={<AppHome />} />
             <Route path="/projects" element={<AppProjects />} />
           </Routes>
         </main>
 
-        <footer className='absolute max-w-[calc(100%-17px)] bottom-0 right-0 left-0 bg-primary dark:bg-primary-dark shadow-[0_-10px_10px_-5px_rgba(246,246,246,1)] dark:shadow-[0_-10px_10px_-5px_rgba(28,38,52,1)]'>
+        <footer className='max-w-[100%] bg-primary dark:bg-primary-dark px-[10%]'>
           <AppFooter />
         </footer>
 
