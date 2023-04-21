@@ -39,7 +39,8 @@ export default function homepage() {
             <section id="study">
                 <div className="max-w-[1200px] mx-auto mt-28">
                     <h2 className="text-4xl text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-secondary dark:bg-gradient-to-b dark:from-white dark:to-secondary font-semibold ">Skills</h2>
-                    <div className="flex flex-wrap gap-1 text-4xl mt-4 pb-4">
+                    <div className="flex flex-wrap gap-2 text-4xl mt-4 pb-4">
+
                         <SiHtml5 className="text-[#e44d26] bg-white p-0.5 rounded" />
                         <SiCss3 className="text-[#264de4] bg-white p-0.5 rounded" />
                         <BsBootstrapFill className="text-[#673ab7] bg-white border p-0.5 rounded" />
