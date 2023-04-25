@@ -78,7 +78,7 @@ export default function homepage() {
 
                         <div className="overflow-hidden max-w-[40px] hover:max-w-[120px] transition-[max-width] duration-700 flex items-center p-0.5 dark:bg-white bg-primary-dark text-white dark:text-black rounded">
                             <div>
-                                <IoLogoJavascript className="text-black bg-[#f7df1e] p-1 border-4 border-white rounded-md" />
+                                <IoLogoJavascript className="text-black bg-[#f7df1e] p-1.5 rounded-md" />
                             </div>
                             <div className="text-sm font-semibold text-center px-2">Javascript</div>
                         </div>
