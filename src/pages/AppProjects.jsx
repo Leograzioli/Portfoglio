@@ -24,9 +24,9 @@ export default function () {
             <section id='projects' className='max-w-[1200px] mx-auto mt-12'>
                 <h2 className='text-4xl text-center sm:text-start text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-secondary dark:bg-gradient-to-b dark:from-white dark:to-secondary font-bold pb-2'>My Projects</h2>
 
-                <div className='mt-16 text-center dark:text-white text-sm relative'>
+                <div className='mt-16 flex justify-center gap-x-2 md:block text-center dark:text-white text-sm relative'>
                     <p>*click on a image to preview*</p>
-                    <p className='absolute right-0 top-0'>Projects Found: {projects.length}</p>
+                    <p className='md:absolute right-0 top-0'>Projects Found: {projects.length}</p>
                 </div>
 
                 <div className='grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 mt-2 '>
@@ -39,9 +39,9 @@ export default function () {
                                 {project.github && <a href={project.github} target='_blank' className='absolute border right-4 top-14 text-3xl rounded-full bg-white text-primary-dark z-10 hover:scale-110'> <BsGithub /></a>}
 
                                 {/* image */} 
-                                <div onClick={() => handleClick(project.imgPath)} className='rounded-tl-xl rounded-br-xl p-2 overflow-hidden'>
-                                    <img className='relative rounded-tl-xl rounded-br-xl border-b-4 border-t-4 border-white dark:border-primary-dark h-[220px] w-[314px] object-cover ' src={`${project.imgPath}`} alt="product" />
-                                    <div className='absolute top-2 h-[220px] w-[314px] rounded-tl-xl rounded-br-xl opacity-30 bg-black hover:opacity-0 transition-all'> </div>
+                                <div onClick={() => handleClick(project.imgPath)} className='relative rounded-tl-xl rounded-br-xl p-2 overflow-hidden'>
+                                    <img className=' rounded-tl-xl rounded-br-xl border-b-4 border-t-4 border-white dark:border-primary-dark h-[220px] w-[314px] object-cover ' src={`${project.imgPath}`} alt="product" />
+                                    <div className='absolute top-2 left-2 right-2 bottom-2  rounded-tl-xl rounded-br-xl opacity-30 bg-black hover:opacity-0 transition-all'> </div>
                                 </div>
 
                                 {/* description */}
