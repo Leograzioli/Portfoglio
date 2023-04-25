@@ -35,12 +35,13 @@ export default function () {
                             <div key={i} className='relative bg-primary-dark text-white dark:text-primary-dark dark:bg-primary max-w-[330px] ms_shadow rounded-tl-xl rounded-br-xl mx-auto'>
 
                                 {/* icons in absolute position */}
-                                {project.href && <a href={project.href} target='_blank' className='absolute right-4 border- top-4 p-2 rounded-full bg-primary-dark dark:text-white '> <BsArrowUpRight /></a>}
-                                {project.github && <a href={project.github} target='_blank' className='absolute border right-4 top-14 text-3xl rounded-full bg-white text-primary-dark'> <BsGithub /></a>}
+                                {project.href && <a href={project.href} target='_blank' className='absolute right-4 border- top-4 p-2 rounded-full bg-primary-dark dark:text-white z-10'> <BsArrowUpRight /></a>}
+                                {project.github && <a href={project.github} target='_blank' className='absolute border right-4 top-14 text-3xl rounded-full bg-white text-primary-dark z-10'> <BsGithub /></a>}
 
                                 {/* image */}
                                 <div onClick={() => handleClick(project.imgPath)} className='rounded-tl-xl rounded-br-xl p-2 overflow-hidden'>
-                                    <img className='rounded-tl-xl rounded-br-xl border-b-4 border-t-4 border-primary-dark h-[200px] w-[314px] object-cover ' src={`${project.imgPath}`} alt="product" />
+                                    <img className='relative rounded-tl-xl rounded-br-xl border-b-4 border-t-4 border-white dark:border-primary-dark h-[220px] w-[314px] object-cover ' src={`${project.imgPath}`} alt="product" />
+                                    <div className='absolute top-2 h-[220px] w-[314px] rounded-tl-xl rounded-br-xl opacity-30 bg-black hover:opacity-0 transition-all'> </div>
                                 </div>
 
                                 {/* description */}
@@ -52,8 +53,8 @@ export default function () {
                                     <div className='grid grid-cols-3 gap-2 mt-4' >
                                         {project.technologies && project.technologies.map((tech, i) => {
                                             return (
-                                                <p key={i} className='mr-1 text-sm bg-primary text-primary-dark dark:bg-secondary rounded-md dark:text-white text-center'>
-                                                    <span className='font-bold'>#</span>{tech}
+                                                <p key={i} className='mr-1 text-sm bg-primary text-primary-dark dark:bg-secondary rounded-md dark:text-primary-dark font-semibold text-center'>
+                                                    #{tech}
                                                 </p>
                                             )
                                         })}

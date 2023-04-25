@@ -15,7 +15,7 @@ function App() {
 
       <BrowserRouter>
 
-        <header className='px-[10%] w-[calc(100%-17px)] bg-primary dark:bg-primary-dark z-10 fixed'>
+        <header className='px-[10%] w-[calc(100%-17px)] bg-primary dark:bg-primary-dark z-20 fixed ms_shadow-b'>
           <AppHeader />
         </header>
 
