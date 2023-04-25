@@ -29,10 +29,10 @@ export default function () {
                     <p className='absolute right-0 top-0'>Projects Found: {projects.length}</p>
                 </div>
 
-                <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 mt-2 '>
+                <div className='grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 mt-2 '>
                     {projects.map((project, i) => {
                         return (
-                            <div key={i} className='relative bg-primary-dark text-white dark:text-primary-dark dark:bg-primary max-w-[330px] ms_shadow rounded-tl-xl rounded-br-xl mb-8 mx-auto'>
+                            <div key={i} className='relative bg-primary-dark text-white dark:text-primary-dark dark:bg-primary max-w-[330px] ms_shadow rounded-tl-xl rounded-br-xl mx-auto'>
 
                                 {/* icons in absolute position */}
                                 {project.href && <a href={project.href} target='_blank' className='absolute right-4 border- top-4 p-2 rounded-full bg-primary-dark dark:text-white '> <BsArrowUpRight /></a>}
@@ -40,7 +40,7 @@ export default function () {
 
                                 {/* image */}
                                 <div onClick={() => handleClick(project.imgPath)} className='rounded-tl-xl rounded-br-xl p-2 overflow-hidden'>
-                                    <img className='rounded-tl-xl rounded-br-xl h-[200px] w-[314px] object-cover ' src={`${project.imgPath}`} alt="product" />
+                                    <img className='rounded-tl-xl rounded-br-xl border-b-4 border-t-4 border-primary-dark h-[200px] w-[314px] object-cover ' src={`${project.imgPath}`} alt="product" />
                                 </div>
 
                                 {/* description */}
@@ -49,10 +49,10 @@ export default function () {
                                         <h2 className='text-2xl font-semibold'>{project.title}</h2>
                                     </div>
                                     <p className='text-sm mt-2'>{project.description}</p>
-                                    <div className='grid grid-cols-3 mt-4' >
+                                    <div className='grid grid-cols-3 gap-2 mt-4' >
                                         {project.technologies && project.technologies.map((tech, i) => {
                                             return (
-                                                <p key={i} className='mr-1'>
+                                                <p key={i} className='mr-1 text-sm bg-primary text-primary-dark dark:bg-secondary rounded-md dark:text-white text-center'>
                                                     <span className='font-bold'>#</span>{tech}
                                                 </p>
                                             )
