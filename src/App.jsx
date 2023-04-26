@@ -20,7 +20,7 @@ function App() {
           <AppHeader />
         </header>
 
-        <main className='pt-[136px] w-[calc(100%-17px)] px-[10%]'>
+        <main className='pt-[136px] w-[100%] px-[10%]'>
           <Routes>
             <Route path="/" element={<AppHome />} />
             <Route path="/projects" element={<AppProjects />} />
