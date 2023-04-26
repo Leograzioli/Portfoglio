@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 //import darkLogo from '../assets/dark-logo.jpg'
 
 export default function AppHeader() {
-  
+
   const [isOpen, setIsOpen] = useState(false)
   const [theme, setTheme] = useState(localStorage.getItem('theme'))
 
@@ -35,9 +35,11 @@ export default function AppHeader() {
 
         {/* logo */}
         <div>
-          <img src={lightLogo} className='h-14' alt="" />
+          <NavLink to={'/'}>
+            <img src={lightLogo} className='h-14' alt="" />
+          </NavLink>
         </div>
-        
+
         {/* dark theme mode */}
         <button onClick={handleClick} className='absolute right-12 top-5 bg-primary-dark dark:bg-white text-white dark:text-black py-1 px-2 rounded sm:ml-6 '>{theme === "dark" ? <HiLightBulb /> : <HiMoon />}</button>
 
