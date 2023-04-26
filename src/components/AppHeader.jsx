@@ -31,7 +31,7 @@ export default function AppHeader() {
 
   return (
     <>
-      <div className="max-w-[1200px] mx-auto flex flex-wrap justify-between content-center w-full py-10">
+      <div className="max-w-[1200px] mx-auto flex flex-wrap justify-between content-center py-10">
 
         {/* logo */}
         <div>
@@ -61,7 +61,7 @@ export default function AppHeader() {
             </li>
 
             <li>
-              <NavLink className={({ isActive }) => isActive ? 'dark:text-white underline text-primary-dark sm:ml-6' : 'sm:ml-6'} to={'/1'}>About me</NavLink>
+              <NavLink className={({ isActive }) => isActive ? 'dark:text-white underline text-primary-dark sm:ml-6' : 'sm:ml-6'} to={'/about-me'}>About me</NavLink>
             </li>
           </ul>
         </nav>

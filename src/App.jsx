@@ -6,6 +6,7 @@ import AppHome from './pages/AppHome'
 import AppProjects from './pages/AppProjects'
 import React from 'react'
 import AppFooter from './components/AppFooter'
+import AboutMe from './pages/AboutMe'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
 
       <BrowserRouter>
 
-        <header className='px-[10%] w-[calc(100%-17px)] bg-primary dark:bg-primary-dark z-20 fixed shadow-[0_8px_6px_-4px_rgba(246,246,246,1)] dark:shadow-[0_8px_6px_-4px_rgba(28,38,52,1)]'>
+        <header className='px-[10%] w-[100%] sm:w-[calc(100%-17px)] bg-primary dark:bg-primary-dark z-20 fixed shadow-[0_8px_6px_-4px_rgba(246,246,246,1)] dark:shadow-[0_8px_6px_-4px_rgba(28,38,52,1)]'>
           <AppHeader />
         </header>
 
@@ -23,6 +24,7 @@ function App() {
           <Routes>
             <Route path="/" element={<AppHome />} />
             <Route path="/projects" element={<AppProjects />} />
+            <Route path="/about-me" element={<AboutMe />} />
           </Routes>
         </main>
 

@@ -19,26 +19,33 @@ export default function homepage() {
 
                     <div className="lg:pt-24 order-2 lg:order-1 " >
 
+                        {/* title */}
                         <h2 className="text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-secondary dark:bg-gradient-to-b dark:from-white dark:to-secondary font-bold text-4xl mt-8 lg:mt-0 sm:text-6xl">Leonardo Grazioli</h2>
+
+                        {/* sub-title and description */}
                         <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-black dark:from-primary-dark dark:to-white text-lg sm:text-xl mt-3">Full Stack Web Developer </p>
                         <p className="text-secondary-dark text-sm mt-10 dark:text-secondary leading-6 lg:pr-12">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, modi pariatur. Fuga enim maxime tempore ex provident et dolorem necessitatibus explicabo sunt perferendis? Consequuntur suscipit delectus quam asperiores velit cupiditate?
                         </p>
 
+                        {/* download cv button */}
                         <div className='mt-12'>
                             <a className='px-4 py-2 bg-primary-dark dark:bg-white text-white dark:text-secondary-dark font-semibold rounded-xl hover:transition-all hover:bg-[#1c365a] inline-flex items-center gap-x-2' href={curriculum} download={curriculum} >Download CV <BsFillArrowDownCircleFill className="animate-bounce"/> </a>
                         </div>
-
                     </div>
 
+                    {/* profile image */}
                     <div className='flex lg:justify-end order-1 lg:order-2'>
                         <img className='h-[335px] w-[335px] sm:h-[440px] sm:w-[440px] object-cover bg-gradient-to-b from-primary-dark to-secondary dark:from-secondary dark:to-primary  rounded-full ' src={leo} alt="profile image" />
                     </div>
                 </div>
             </section>
-            <section id="study">
+
+            <section id="skills">
                 <div className="max-w-[1200px] mx-auto mt-28">
                     <h2 className="text-4xl text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-secondary dark:bg-gradient-to-b dark:from-white dark:to-secondary font-semibold ">Skills</h2>
+
+                    {/* skill icons  */}
                     <div className="flex flex-wrap gap-2 text-4xl mt-4 pb-4">
 
                         <div className="overflow-hidden max-w-[40px] hover:max-w-[120px] transition-[max-width] duration-700 flex items-center p-0.5 dark:bg-white bg-primary-dark text-white dark:text-black rounded">
