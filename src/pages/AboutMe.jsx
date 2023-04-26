@@ -36,9 +36,9 @@ export default function AboutMe() {
             </p>
 
 
-            <div className='mt-12 flex justify-center gap-x-4'>
-                <a className='px-4 py-2 bg-primary-dark dark:bg-white text-white dark:text-secondary-dark font-semibold rounded-xl hover:transition-all hover:bg-[#1c365a] inline-flex items-center gap-x-2 hover:scale-x-105' href={curriculum} download={curriculum} >Download CV <BsFillArrowDownCircleFill className="animate-bounce" /> </a>
-                <div onClick={() => { setIsOpen(true) }} className='cursor-pointer px-4 py-2 bg-primary-dark dark:bg-white text-white dark:text-secondary-dark font-semibold rounded-xl hover:transition-all hover:bg-[#1c365a] inline-flex items-center gap-x-2 hover:scale-x-105' href={curriculum} download={curriculum} >Contact Me <BsFillEnvelopeFill /> </div>
+            <div className='mt-12 flex flex-wrap justify-center gap-4'>
+                <div className='cursor-pointer px-4 max-w-[180px] sm:me-4 py-2 bg-primary-dark dark:bg-white text-white dark:text-secondary-dark font-semibold rounded-xl hover:transition-all hover:bg-[#1c365a] inline-flex justify-center items-center gap-x-2 hover:scale-x-105' href={curriculum} download={curriculum} >Download CV <BsFillArrowDownCircleFill className="animate-bounce" /> </div>
+                <div onClick={() => { setIsOpen(true) }} className='cursor-pointer max-w-[180px] px-4 py-2 bg-primary-dark dark:bg-white text-white dark:text-secondary-dark font-semibold rounded-xl hover:transition-all hover:bg-[#1c365a] flex justify-center items-center gap-x-2 hover:scale-x-105' href={curriculum} download={curriculum} >Contact Me <BsFillEnvelopeFill /> </div>
             </div>
 
             {/* modal */}

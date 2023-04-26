@@ -5,7 +5,7 @@ export default function AppFooter() {
         <>
             <section id='social-links' className="max-w-[1200px] mx-auto" >
 
-                <ul className='dark:text-white text-primary-dark text-2xl flex justify-end items-center gap-x-6 pt-3'>
+                <ul className='dark:text-white text-primary-dark text-2xl flex justify-center sm:justify-end  items-center gap-x-6 pt-3'>
 
                     <li className='hover:transition-all hover:scale-125 hover:text-[#0a66c2]'>
                         <a href="https://www.linkedin.com/in/leonardo-grazioli" title='https://www.linkedin.com/in/leonardo-grazioli' target="_blank">
