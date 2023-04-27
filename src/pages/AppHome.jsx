@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import leo from '../assets/leo.png'
-import curriculum from '../assets/leonardo-grazioli-cv.pdf'
+import curriculum from '../assets/Leonardo_Grazioli_cv_portfolio.pdf'
 import { BsFillArrowDownCircleFill, BsBootstrapFill } from 'react-icons/bs'
 import { SiHtml5, SiCss3, SiTailwindcss, SiMysql } from 'react-icons/si'
 import { IoLogoJavascript } from 'react-icons/io'
@@ -30,7 +30,7 @@ export default function homepage() {
 
                         {/* download cv button */}
                         <div className='mt-12'>
-                            <a className='px-4 py-2 bg-primary-dark dark:bg-white text-white dark:text-secondary-dark font-semibold rounded-xl hover:transition-all hover:bg-[#1c365a] inline-flex items-center gap-x-2 hover:scale-x-105' href={curriculum} download={curriculum} >Download CV <BsFillArrowDownCircleFill className="animate-bounce"/> </a>
+                            <a className='px-4 py-2 bg-primary-dark dark:bg-white text-white dark:text-secondary-dark font-semibold rounded-xl hover:transition-all hover:bg-[#1c365a] inline-flex items-center gap-x-2 hover:scale-x-105' href={curriculum} download={'Leonardo_Grazioli_CV.pdf'} >Download CV <BsFillArrowDownCircleFill className="animate-bounce"/> </a>
                         </div>
                     </div>
 
