@@ -7,7 +7,7 @@ export default function AboutMe() {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <section id="about" className='max-w-[1200px] mx-auto mt-12 pb-16'>
+        <section id="about" className='max-w-[1200px] mx-auto mt-12'>
             <h4 className="text-xl text-center text-primary-dark dark:text-secondary font-semibold "> A bit more about me </h4>
 
             {/* profile image */}
@@ -29,10 +29,9 @@ export default function AboutMe() {
 
             <p className="text-primary-dark dark:text-secondary text-center  px-12">
 
-                After 8 years of experience as warehouse specialist i decided to do something that i always loved.
-                the passion for video-games and technology pushed me to dive into the development world. So i started learning at the beggining <span className="font-bold text-black dark:text-white">Html</span> and  <span className="font-bold text-black dark:text-white">Css</span> with <span className="font-bold text-black dark:text-white">Bootstrap, Tailwind</span> and <span className="font-bold text-black dark:text-white">Sass</span>  <br />
-                and after a short time i started <span className="font-bold text-black dark:text-white">Javascript</span>  with the frameworks <span className="font-bold text-black dark:text-white">Vue.js</span> and <span className="font-bold text-black dark:text-white">React</span>. <br />
-                Then I decided to learn backend programming language, so I decided to start with <span className="font-bold text-black dark:text-white">Php</span> with <span className="font-bold text-black dark:text-white">Laravel</span> framework. <br />
+                After 8 years of experience as warehouse specialist i decided to do something t i always loved.
+                the passion for video-games and technology pushed me to dive into the development world. So i started from <span className="font-bold text-black dark:text-white">Html</span> and  <span className="font-bold text-black dark:text-white">Css</span> with <span className="font-bold text-black dark:text-white">Bootstrap, Tailwind</span> and <span className="font-bold text-black dark:text-white">Sass</span>  <br />
+                and after a short time i started <span className="font-bold text-black dark:text-white">Javascript</span>  with <span className="font-bold text-black dark:text-white">Vue.js</span> and <span className="font-bold text-black dark:text-white">React</span> and later on <span className="font-bold text-black dark:text-white">Php</span> with <span className="font-bold text-black dark:text-white">Laravel</span> framework. <br />
             </p>
 
 
