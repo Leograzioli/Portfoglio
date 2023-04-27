@@ -7,7 +7,7 @@ import bdFront from '../assets/bd-front.jpg'
 export const projects = [
    {
       "title": 'Campo Minato - Click and Play',
-      "description": 'Select the level and play the smile face to start playing.',
+      "description": 'Select the level and press the smile face to start playing.',
       "technologies":  ['Html', 'Css', 'Javascript'],
       "href" : 'https://lg-campo-minato.netlify.app/',
       "github" : 'https://github.com/Leograzioli/campominato-2.0',
