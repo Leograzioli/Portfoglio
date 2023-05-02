@@ -1,10 +1,16 @@
 import { useEffect } from "react";
-import leo from '../assets/leo.png'
-import curriculum from '../assets/Leonardo_Grazioli_cv_portfolio.pdf'
-import { BsFillArrowDownCircleFill, BsBootstrapFill } from 'react-icons/bs'
+
+//react icons
+import { BsBootstrapFill } from 'react-icons/bs'
 import { SiHtml5, SiCss3, SiTailwindcss, SiMysql } from 'react-icons/si'
 import { IoLogoJavascript } from 'react-icons/io'
 import { FaVuejs, FaReact, FaPhp, FaLaravel, FaSass } from 'react-icons/fa'
+
+//img
+import leo from '../assets/leo.png'
+
+//components
+import DownloadBtn from "../components/DownloadBtn";
 
 export default function homepage() {
 
@@ -20,17 +26,19 @@ export default function homepage() {
                     <div className="lg:pt-24 order-2 lg:order-1 " >
 
                         {/* title */}
-                        <h2 className="text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-secondary dark:bg-gradient-to-b dark:from-white dark:to-secondary font-bold text-4xl mt-8 lg:mt-0 sm:text-6xl">Leonardo Grazioli</h2>
+                        <div className="text-end w-fit">
+                            <h2 className="text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-secondary dark:bg-gradient-to-b dark:from-white dark:to-secondary font-bold text-4xl mt-8 lg:mt-0 sm:text-6xl">Leonardo Grazioli</h2>
+                            <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-black dark:from-primary-dark dark:to-white text-lg sm:text-xl mt-3">Full Stack Web Developer </p>
+                        </div>
 
-                        {/* sub-title and description */}
-                        <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-black dark:from-primary-dark dark:to-white text-lg sm:text-xl mt-3">Full Stack Web Developer </p>
+                        {/* description */}
                         <p className="text-secondary-dark text-sm mt-10 dark:text-secondary leading-6 lg:pr-12">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, modi pariatur. Fuga enim maxime tempore ex provident et dolorem necessitatibus explicabo sunt perferendis? Consequuntur suscipit delectus quam asperiores velit cupiditate?
                         </p>
 
                         {/* download cv button */}
                         <div className='mt-12'>
-                            <a className='px-4 py-2 bg-primary-dark dark:bg-white text-white dark:text-secondary-dark font-semibold rounded-xl hover:transition-all hover:bg-[#1c365a] inline-flex items-center gap-x-2 hover:scale-x-105' href={curriculum} download={'Leonardo_Grazioli_CV.pdf'} >Download CV <BsFillArrowDownCircleFill className="animate-bounce"/> </a>
+                            <DownloadBtn />
                         </div>
                     </div>
 

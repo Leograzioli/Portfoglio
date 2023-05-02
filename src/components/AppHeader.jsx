@@ -53,15 +53,15 @@ export default function AppHeader() {
           <ul className='sm:flex text-secondary-dark dark:text-secondary font-semibold text-lg'>
 
             <li>
-              <NavLink className={({ isActive }) => isActive ? 'dark:text-white underline text-primary-dark sm:ml-6' : 'sm:ml-6'} to={'/'}>Home</NavLink>
+              <NavLink className={({ isActive }) => isActive ? 'dark:text-white underline text-secondary sm:ml-6' : 'sm:ml-6'} to={'/'}>Home</NavLink>
             </li>
 
             <li>
-              <NavLink className={({ isActive }) => isActive ? 'dark:text-white underline text-primary-dark sm:ml-6' : 'sm:ml-6'} to={'/projects'}>Projects</NavLink>
+              <NavLink className={({ isActive }) => isActive ? 'dark:text-white underline text-secondary sm:ml-6' : 'sm:ml-6'} to={'/projects'}>Projects</NavLink>
             </li>
 
             <li>
-              <NavLink className={({ isActive }) => isActive ? 'dark:text-white underline text-primary-dark sm:ml-6' : 'sm:ml-6'} to={'/about-me'}>About me</NavLink>
+              <NavLink className={({ isActive }) => isActive ? 'dark:text-white underline text-secondary sm:ml-6' : 'sm:ml-6'} to={'/about-me'}>About me</NavLink>
             </li>
           </ul>
         </nav>
