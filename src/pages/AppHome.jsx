@@ -33,8 +33,7 @@ export default function homepage() {
 
                         {/* description */}
                         <p className="text-secondary-dark text-sm mt-10 dark:text-secondary leading-6 lg:pr-12">
-                            La passione per la tecnologia e i videogiochi mi ha spinto ad entrare nel mondo dello sviluppo web e a studiare per diventare Web Developer.
-                            Ora più che mai, dedico il mio tempo allo studio di nuove tecnogie e all'approfondimento delle conoscenze pregresse.
+                        The passion for technology and video games has driven me to enter the world of web development and study to become a Web Developer. Now more than ever, I dedicate my time to studying new technologies and deepening my previous knowledge.
                         </p>
 
                         {/* download cv button */}
