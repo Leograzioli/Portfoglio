@@ -33,7 +33,8 @@ export default function homepage() {
 
                         {/* description */}
                         <p className="text-secondary-dark text-sm mt-10 dark:text-secondary leading-6 lg:pr-12">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, modi pariatur. Fuga enim maxime tempore ex provident et dolorem necessitatibus explicabo sunt perferendis? Consequuntur suscipit delectus quam asperiores velit cupiditate?
+                            La passione per la tecnologia e i videogiochi mi ha spinto ad entrare nel mondo dello sviluppo web e a studiare per diventare Web Developer.
+                            Ora più che mai, dedico il mio tempo allo studio di nuove tecnogie e all'approfondimento delle conoscenze pregresse.
                         </p>
 
                         {/* download cv button */}

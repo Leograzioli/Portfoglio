@@ -42,13 +42,13 @@ export default function AboutMe() {
             </p>
 
             {/* new section */}
-            <h2 className='text-2xl text-center  text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-secondary dark:bg-gradient-to-b dark:from-white dark:to-secondary font-bold mt-6 pb-4'>Why I decided to start programming?</h2>
+            {/* <h2 className='text-2xl text-center  text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-secondary dark:bg-gradient-to-b dark:from-white dark:to-secondary font-bold mt-6 pb-4'>Why I decided to start programming?</h2>
 
             <p className="text-primary-dark dark:text-secondary text-center px-12">
 
                 After 8 years of experience as warehouse specialist I decided to do something I always loved.
                 The passion for video-games and technology pushed me to dive into the development world. I started from <span className="font-bold text-black dark:text-white">Html</span> and  <span className="font-bold text-black dark:text-white">Css</span> with <span className="font-bold text-black dark:text-white">Bootstrap, Tailwind</span> and <span className="font-bold text-black dark:text-white">Sass</span>. <br /> Then, I moved on to <span className="font-bold text-black dark:text-white">Javascript</span>  with <span className="font-bold text-black dark:text-white">Vue.js</span> and <span className="font-bold text-black dark:text-white">React</span> and later on <span className="font-bold text-black dark:text-white">Php</span> with <span className="font-bold text-black dark:text-white">Laravel</span> framework. <br />
-            </p>
+            </p> */}
 
 
             <div className='mt-12 flex flex-wrap justify-center gap-4'>
