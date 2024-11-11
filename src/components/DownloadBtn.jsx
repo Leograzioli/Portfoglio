@@ -1,4 +1,4 @@
-import curriculum from '../assets/Leonardo_Grazioli_CV.pdf'
+import curriculum from '../assets/Leonardo.pdf'
 import { BsFillArrowDownCircleFill } from 'react-icons/bs'
 
 export default function DownloadBtn() {
