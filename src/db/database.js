@@ -1,10 +1,28 @@
 import campoMinato from '../assets/campo-minato.jpg'
+import gsp from '../assets/gsp.png'
+import manica from "../assets/manica.png"
 import rickMorty from '../assets/rick-morty.jpg'
 import bdBack from '../assets/bd-back.jpg'
 import bdFront from '../assets/bd-front.jpg'
 // import avadaBurger from '../assets/avada-burger.jpg'
 
 export const projects = [
+   {
+      "title": 'GSP lizzana',
+      "description": 'Main site of Gsp lizzana calcio splash. find matches, events and more',
+      "technologies":  ['Html', 'Tailwind', 'Next.js'],
+      "href" : 'https://gsplizzana.it/',
+      "github" : false,
+      "imgPath" : gsp
+   },
+   {
+      "title": 'Studio Manica',
+      "description": '',
+      "technologies":  ['Html', 'Tailwind', 'Laravel'],
+      "href" : 'https://studiomanica.com/',
+      "github" : false,
+      "imgPath" : manica
+   },
    {
       "title": 'Campo Minato - Click and Play',
       "description": 'Select the level and press the smile face to start playing.',
