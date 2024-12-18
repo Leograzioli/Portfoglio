@@ -32,7 +32,7 @@ export default function () {
                 <div className='grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 mt-2 '>
                     {projects.map((project, i) => {
                         return (
-                            <div key={i} className='relative bg-primary-dark text-white dark:text-primary-dark dark:bg-primary max-w-[330px] ms_shadow rounded-tl-xl rounded-br-xl mx-auto'>
+                            <div key={i} className='relative bg-primary-dark dark:bg-primary text-white dark:text-primary-dark border border-black max-w-[320px] rounded-tl-xl rounded-br-xl mx-auto'>
 
                                 {/* icons in absolute position */}
                                 {project.href && <a href={project.href} target='_blank' className='absolute right-4 border- top-4 p-2 rounded-full bg-primary-dark dark:text-white z-10 hover:scale-110'> <BsArrowUpRight /></a>}
@@ -40,20 +40,20 @@ export default function () {
 
                                 {/* image */} 
                                 <div onClick={() => handleClick(project.imgPath)} className='relative rounded-tl-xl rounded-br-xl p-2 overflow-hidden'>
-                                    <img className=' rounded-tl-xl rounded-br-xl border-b-4 border-t-4 border-white dark:border-primary-dark h-[220px] w-[314px] object-cover ' src={`${project.imgPath}`} alt="product" />
-                                    <div className='absolute top-2 left-2 right-2 bottom-2  rounded-tl-xl rounded-br-xl opacity-30 bg-black hover:opacity-0 transition-all'> </div>
+                                    <img className=' rounded-tl-xl rounded-br-xl border border-gray-500 dark:border-primary-dark h-[220px] w-[314px] object-cover ' src={`${project.imgPath}`} alt="product" />
+                                    {/* <div className='absolute top-2 left-2 right-2 bottom-2  rounded-tl-xl rounded-br-xl opacity-30 bg-black hover:opacity-0 transition-all'> </div> */}
                                 </div>
 
                                 {/* description */}
                                 <div className='p-4 flex flex-col justify-between min-h-[220px]'>
                                     <div className=''>
-                                        <h2 className='text-2xl font-semibold'>{project.title}</h2>
+                                        <h2 className='text-2xl font-semibold underline'>{project.title}</h2>
                                     </div>
                                     <p className='text-sm mt-2'>{project.description}</p>
                                     <div className='grid grid-cols-3 gap-2 mt-4' >
                                         {project.technologies && project.technologies.map((tech, i) => {
                                             return (
-                                                <p key={i} className='mr-1 text-sm bg-primary text-primary-dark dark:bg-secondary rounded-md dark:text-primary-dark font-semibold text-center'>
+                                                <p key={i} className='mr-1 text-sm bg-primary text-primary-dark dark:bg-secondary/50 rounded-md border border-black dark:border-gray-500 dark:text-primary-dark font-semibold text-center'>
                                                     #{tech}
                                                 </p>
                                             )

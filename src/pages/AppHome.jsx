@@ -33,7 +33,7 @@ export default function homepage() {
 
                         {/* description */}
                         <p className="text-secondary-dark text-sm mt-10 dark:text-secondary leading-6 lg:pr-12">
-                        The passion for technology and video games has driven me to enter the world of web development and study to become a Web Developer. Now more than ever, I dedicate my time to studying new technologies and deepening my previous knowledge.
+                            The passion for technology and video games has driven me to enter the world of web development and study to become a Web Developer. Now more than ever, I dedicate my time to studying new technologies and deepening my previous knowledge.
                         </p>
 
                         {/* download cv button */}
@@ -44,14 +44,14 @@ export default function homepage() {
 
                     {/* profile image */}
                     <div className='flex lg:justify-end order-1 lg:order-2'>
-                        <img className='h-[335px] w-[335px] sm:h-[440px] sm:w-[440px] object-cover bg-gradient-to-b from-primary-dark to-secondary dark:from-secondary dark:to-primary  rounded-full ' src={leo} alt="profile image" />
+                        <img className='h-[315px] w-[315px] sm:h-[410px] sm:w-[410px] object-cover bg-gradient-to-b from-primary-dark to-secondary dark:from-secondary dark:to-primary  rounded-full ' src={leo} alt="profile image" />
                     </div>
                 </div>
             </section>
 
             <section id="skills">
                 <div className="max-w-[1200px] mx-auto mt-28">
-                    <h2 className="text-4xl text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-secondary dark:bg-gradient-to-b dark:from-white dark:to-secondary font-semibold ">Skills</h2>
+                    <h2 className="text-4xl text-transparent bg-clip-text bg-gradient-to-t from-primary-dark to-secondary dark:bg-gradient-to-b dark:from-white dark:to-secondary font-semibold">Skills</h2>
 
                     {/* skill icons  */}
                     <div className="flex flex-wrap gap-2 text-4xl mt-4 pb-4">

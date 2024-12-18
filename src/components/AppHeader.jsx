@@ -8,7 +8,7 @@ import { useEffect, useState } from 'react'
 export default function AppHeader() {
 
   const [isOpen, setIsOpen] = useState(false)
-  const [theme, setTheme] = useState(localStorage.getItem('theme'))
+  const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'dark')
 
   useEffect(() => {
     if (theme === 'dark') {
